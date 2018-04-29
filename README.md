@@ -15,6 +15,8 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/privat
 # Secure REST API with JWT
 https://medium.freecodecamp.org/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52
 
+# Common Server Setup
+https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application
   
 ## Data Provider
 
