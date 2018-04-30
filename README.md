@@ -2,6 +2,7 @@
 
 ## Build:
 
+  cd [docker_dir]/Dockerfile
   docker build -t docker.io/jahskee/fedora-node:1.0 .
 
   sudo docker push docker.io/jahskee/fedora-node
