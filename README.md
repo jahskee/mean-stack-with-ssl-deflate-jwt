@@ -1,5 +1,8 @@
 # MEAN Stack
 
+# Docker registry
+https://hub.docker.com/r/jahskee/fedora-node/
+
 # Allow port 80 and 443
 
 sudo setcap CAP_NET_BIND_SERVICE=+eip /path/to/binary
