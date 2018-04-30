@@ -1,4 +1,4 @@
-# MEAN Stack
+# MEAN Stack - Containerized
 
 # Docker registry
 https://hub.docker.com/r/jahskee/fedora-node/
