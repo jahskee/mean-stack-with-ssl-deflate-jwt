@@ -1,9 +1,16 @@
 # MEAN Stack - Containerized
 
+## Build:
 
-sudo docker pull jahskee/fedora-node
+  docker build -t docker.io/jahskee/fedora-node:1.0 .
 
-sudo docker run -it -p 80:80 -p 443:443 jahskee/fedora-node /bin/bash
+  sudo docker push docker.io/jahskee/fedora-node
+
+## Deploy:
+
+  sudo docker pull jahskee/fedora-node
+
+  sudo docker run -it -p 80:80 -p 443:443 jahskee/fedora-node /bin/bash
 
 # Docker registry
 https://hub.docker.com/r/jahskee/fedora-node/

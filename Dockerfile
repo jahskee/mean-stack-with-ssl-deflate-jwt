@@ -7,3 +7,4 @@ RUN mkdir -p /home/releasemgr/meanstack
 ADD . /home/releasemgr/meanstack
 RUN cd /home/releasemgr/meanstack
 RUN git pull
+RUN npm start
