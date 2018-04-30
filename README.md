@@ -12,7 +12,7 @@
 
   sudo docker pull jahskee/fedora-node
 
-  sudo docker run -it -p 80:80 -p 443:443 jahskee/fedora-node /bin/bash
+  sudo docker run -t -p 80:80 -p 443:443 jahskee/fedora-node /home/releasemgr/meanstack/run.sh
 
 # Docker registry
 https://hub.docker.com/r/jahskee/fedora-node/
