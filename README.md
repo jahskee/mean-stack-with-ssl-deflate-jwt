@@ -1,18 +1,23 @@
 # MEAN Stack - Containerized
 
+## Create group docker
+    add group docker
+    attach curret user to docker
+    restart server
+    
 ## Build:
 
   cd [docker_dir]/Dockerfile
   
-  sudo docker build -t docker.io/jahskee/fedora-node:1.0 .
+  docker build -t docker.io/jahskee/fedora-node:1.0 .
 
-  sudo docker push docker.io/jahskee/fedora-node
+  docker push docker.io/jahskee/fedora-node
 
 ## Deploy:
 
   sudo docker pull jahskee/fedora-node
 
-  sudo docker run -t -p 80:80 -p 443:443 jahskee/fedora-node /home/releasemgr/meanstack/run.sh
+  sudo docker run -t -p 80:80 -p 443:443 jahskee/fedora-node /root/run.sh
 
 # Docker registry
 https://hub.docker.com/r/jahskee/fedora-node/
