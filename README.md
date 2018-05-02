@@ -2,7 +2,7 @@
 
 ## Create group docker
     add group docker
-    attach curret user to docker
+    attach curret user to group docker
     restart server
     
 ## Build:
