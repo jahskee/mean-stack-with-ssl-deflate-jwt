@@ -1,9 +1,9 @@
 # MEAN Stack - Containerized
 
-## Create group docker
+## Run docker cli without sudo
     add group docker
     attach curret user to group docker
-    restart server
+    re-login user
     
 ## Build:
 
