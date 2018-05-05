@@ -2,7 +2,7 @@
 
 ## Run docker cli without sudo
     add group docker
-    attach curret user to group docker
+    attach current user to group docker
     re-login user
     
 ## Build:
