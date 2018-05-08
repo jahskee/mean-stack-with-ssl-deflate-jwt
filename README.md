@@ -1,6 +1,11 @@
 # MEAN Stack - Containerized
 
+## Angular CLI Install
+
+npm install -g @angular/cli@latest
+
 ## Run docker cli without sudo
+
     add group docker
     attach current user to group docker
     re-login user
