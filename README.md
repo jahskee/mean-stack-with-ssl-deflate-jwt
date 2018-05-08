@@ -32,7 +32,12 @@ sudo setcap CAP_NET_BIND_SERVICE=+eip /usr/lib/node_modules/npm/bin/npm-cli.js
 
 
 # Create self-signed certificate
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/server.key -out /etc/ssl/certs/server.crt
+
+always generate this on new dev machine
+
+mkdir ~/ssl-cert
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ~/ssl-cert/server.key -out ~/ssl-cert/server.crt
 
 # Secure REST API with JWT
 https://medium.freecodecamp.org/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52
