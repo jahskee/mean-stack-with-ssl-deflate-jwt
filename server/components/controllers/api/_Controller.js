@@ -1,5 +1,5 @@
 const DataController = require('./crud/_dataController');
-const Model = require('../../models/contactModel');
+const Model = require('../../models/_Model');
 
 const controller = new DataController(Model);
 
