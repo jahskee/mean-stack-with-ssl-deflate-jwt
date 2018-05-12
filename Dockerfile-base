@@ -1,6 +1,8 @@
 FROM fedora:27
 MAINTAINER jahskee@yahoo.com
 
+WORKDIR /home/releasemgr/meanstack/server
+
 RUN dnf -y update
 RUN dnf -y install nodejs git nano procps net-tools
 
