@@ -6,6 +6,8 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
 
 ## Angular CLI Install
 
+npm install -g @angluar/cli // use this to avoid version conflict
+
 npm install -g @angular/cli@latest
 
 ## Run docker cli without sudo
