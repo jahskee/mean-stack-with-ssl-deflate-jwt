@@ -23,11 +23,11 @@ export class ContactService {
   }
 
   deleteContact(id) {
-    return this.http.delete(this.apiurl + '/api/contacts/delete/' + id);
+    return this.http.delete(this.apiurl + '/api/contacts/delete/'+id+'?token='+this.token);
   }
 
   updateContact(contactObj) {
-    return this.http.put(this.apiurl + '/api/contacts/update', contactObj);
+    return this.http.put(this.apiurl + '/api/contacts/update?token='+this.token, contactObj);
   }
 
 }

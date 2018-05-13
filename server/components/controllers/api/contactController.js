@@ -12,8 +12,11 @@ const controller = new DataController(Model);
 
 3. controller.read(req, res)
 
+4. controller.delete(req, res)
+
+
 ---private function2
-3. this._search(queryObj={}, fields=[], limit = null)
+5. this._search(queryObj={}, fields=[], limit = null)
 
 ---------- Default functions ---------- */
 module.exports = controller;

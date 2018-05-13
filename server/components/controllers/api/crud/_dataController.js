@@ -55,16 +55,27 @@ class DataController {
 
     this.update = async (req, res) => {
       let dataObj = req.body;
+      console.log(dataObj)
       try {
         dataObj = dataService.update(this.dataModel, dataObj)
         res.json(dataObj) 
       } catch (err) {
         console.log(err)
         res.end()
-      }
-     
+      }     
     }
-   //
+
+    this.delete = async (req, res) => {
+      const id = req.params.id
+      let dataObj
+      try {
+        dataObj = dataService.delete(this.dataModel, id)
+        res.json(dataObj) 
+      } catch (err) {
+        console.error(err)
+        res.end()
+      }     
+    }  
     
   } // end of constructor
 } // end of class

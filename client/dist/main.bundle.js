@@ -592,10 +592,10 @@ var ContactService = /** @class */ (function () {
         return this.http.post(this.apiurl + '/api/contacts/create?token=' + this.token, contactObj);
     };
     ContactService.prototype.deleteContact = function (id) {
-        return this.http.delete(this.apiurl + '/api/contacts/delete/' + id);
+        return this.http.delete(this.apiurl + '/api/contacts/delete/' + id + '?token=' + this.token);
     };
     ContactService.prototype.updateContact = function (contactObj) {
-        return this.http.put(this.apiurl + '/api/contacts/update', contactObj);
+        return this.http.put(this.apiurl + '/api/contacts/update?token=' + this.token, contactObj);
     };
     ContactService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
