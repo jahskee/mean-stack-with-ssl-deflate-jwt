@@ -6,6 +6,8 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh |
 
 after install open new terminal
 
+nvm install 8.11
+
 ## Install Yarn & Jest
 
 npm install --save-dev yarn
