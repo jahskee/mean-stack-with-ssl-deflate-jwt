@@ -3,7 +3,7 @@ sudo: false
 node_js:
   - "8.11"
 before_script: 
-  cd server
+  - cd server
   - npm install --save-dev yarn
   - yard add --dev jest
 
