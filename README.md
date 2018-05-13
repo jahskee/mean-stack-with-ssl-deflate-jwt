@@ -5,6 +5,7 @@
 npm install --save-dev yarn
 
 yarn add --dev jest
+
 npm install --save-dev jest
 
 # Run this to avoid issue with nodemon
