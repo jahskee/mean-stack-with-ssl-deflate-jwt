@@ -47,7 +47,7 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
     sudo setcap CAP_NET_BIND_SERVICE=+eip /home/releasemgr/servers/node9/bin/node
     sudo setcap CAP_NET_BIND_SERVICE=+eip /usr/lib/node_modules/npm/bin/npm-cli.js
 
-## Create self-signed certificate
+## Create self-signed SSL certificate for development
 
     mkdir ~/ssl-cert
     sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ~/ssl-cert/server.key -out ~/ssl-cert/server.crt
