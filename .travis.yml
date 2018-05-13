@@ -4,13 +4,15 @@ node_js:
   - "8.11"
 before_script: 
   cd server
-  yard add --dev jest
+  - npm install --save-dev yarn
+  - yard add --dev jest
 
 branches:
    only:
    - master
 
 install:
+  
   - yarn install
  
 script:
