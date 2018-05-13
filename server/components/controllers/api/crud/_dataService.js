@@ -3,7 +3,7 @@ dataService = {};
 dataService.list = async (Model, searchObj, selectFields, limit) => {
   let dataObjs;
   try {
-    dataObjs = await Model.find(searchObj, selectFields).limit(limit);    
+    dataObjs = await Model.find(searchObj, selectFields).limit(limit);
   } catch (err) {
     throw `\n${err} \n- searchObj=${JSON.stringify(searchObj)}\n`;
   }
@@ -14,45 +14,45 @@ dataService.create = async (Model, paramObj) => {
   let dataObj;
   try {
     dataObj = new Model(paramObj);
-    dataObj = await dataObj.save();   
+    dataObj = await dataObj.save();
   } catch (err) {
     throw `\n${err} \n- dataObj=${JSON.stringify(paramObj)}\n`;
-  }      
+  }
   return dataObj;
 };
 
 dataService.findOne = async (Model, id) => {
   let dataObj;
   try {
-    dataObj = await Model.findOne({_id: id}); 
+    dataObj = await Model.findOne({ _id: id });
   } catch (err) {
     throw `\n${err} \n - Id=${id}\n`;
-  }        
-  return dataObj;   
+  }
+  return dataObj;
 };
 
 dataService.update = async (Model, paramObj) => {
   try {
     const _id = paramObj._id;
-    dataObj = await Model.findOne({_id});
-    dataObj.set({...paramObj});
+    dataObj = await Model.findOne({ _id });
+    dataObj.set({ ...paramObj });
     dataObj = await dataObj.save();
   } catch (err) {
     throw `\n${err} \n- updateQuestion=${JSON.stringify(updateQuestion)}\n`;
-  }  
+  }
   return question;
 };
 
 dataService.delete = async (Model, id) => {
   let dataObj;
   try {
-    dataObj = await Model.findOne({_id: id}); 
+    dataObj = await Model.findOne({ _id: id });
     if (!dataObj) throw `does not exist questionId=${id}`;
     dataObj = await dataObj.remove();
   } catch (err) {
     throw `\n${err} \n- contactId=${id}\n`;
   }
   return dataObj;
-}
+};
 
 module.exports = dataService;
