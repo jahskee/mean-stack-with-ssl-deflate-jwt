@@ -32,7 +32,8 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
 ## Build:
 
     cd [docker_dir]/Dockerfile
-    docker build -t docker.io/jahskee/fedora-node:1.0 .
+    docker build -t docker.io/jahskee/fedora-node:1.0 .  // take note of (.)period end of command
+    docker login
     docker push docker.io/jahskee/fedora-node
 
 ## Deploy:
