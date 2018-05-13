@@ -78,5 +78,3 @@ https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your
 https://github.com/HarvardDCENode/assignment-5-rest-apis-jahskee/blob/master/components/controllers/web/webContactController.js
 
 
-
-Thank you!
