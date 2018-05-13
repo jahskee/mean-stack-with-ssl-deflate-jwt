@@ -43,6 +43,7 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
     
     //interactive
     docker ps
+    docker kill [container_id]
     docker run -it -p jahskee/fedora-node /bin/bash
 
 ## Docker registry
