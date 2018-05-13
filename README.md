@@ -3,7 +3,7 @@
 ## Linux OS
     RedHat, Fedora, CentOS
     
-## Deploy Docker to GCP Kubernetes Engine
+## Deploy Image to GCP Kubernetes Engine
     https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
 
 ## install nvm
