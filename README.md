@@ -1,6 +1,6 @@
 # MEAN Stack - Containerized
 
-# Install Jest
+## Install Jest
 
 npm install -g jest
 
