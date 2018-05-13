@@ -1,5 +1,11 @@
 # MEAN Stack - Containerized
 
+## install nvm
+
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+
+after install open new terminal
+
 ## Install Yarn & Jest
 
 npm install --save-dev yarn
