@@ -5,6 +5,7 @@
   "description": "Angular 2 and Node.JS implementation",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "start": "node ./bin/www",
     "start-dev": "nodemon --inspect ./bin/www",
     "watch-scss": "node-sass --recursive --watch --include-path scss src/scss/styles.scss --output public/stylesheets/",
