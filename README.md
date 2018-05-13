@@ -1,5 +1,9 @@
 # MEAN Stack - Containerized
 
+# Install Jest
+
+npm install -g jest
+
 # Run this to avoid issue with nodemon
 echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
