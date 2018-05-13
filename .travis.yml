@@ -5,8 +5,8 @@ node_js:
 before_script: cd server
 install:
   - yarn install
-  - yarn add --dev jest
+  - yarn global add jest
 script:
   - yarn test
 
-  
+
