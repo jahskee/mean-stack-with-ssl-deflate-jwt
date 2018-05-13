@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiurl: 'http://stratteos.us:8080'
+  apiurl: 'https://stratteos.us'
 };
