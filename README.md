@@ -1,7 +1,8 @@
 # MEAN Stack - Containerized
-
+## Operating Systems    
+    RedHat, Fedora, CentOS
+   
 ## install nvm
-
     wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
     after install open new terminal
     nvm install 8.11
