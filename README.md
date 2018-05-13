@@ -38,8 +38,12 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
 
 ## Deploy:
 
-    sudo docker pull jahskee/fedora-node
-    sudo docker run -t -p 80:80 -p 443:443 jahskee/fedora-node /root/run.sh
+    docker pull jahskee/fedora-node
+    docker run -t -p 80:80 -p 443:443 jahskee/fedora-node /root/run.sh
+    
+    //interactive
+    docker ps
+    docker run -it -p jahskee/fedora-node /bin/bash
 
 ## Docker registry
     https://hub.docker.com/r/jahskee/fedora-node/
