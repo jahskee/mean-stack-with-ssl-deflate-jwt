@@ -1,6 +1,6 @@
 # MEAN Stack - Containerized
 
-## Operating Systems    
+## Linux OS
     RedHat, Fedora, CentOS
    
 ## install nvm
