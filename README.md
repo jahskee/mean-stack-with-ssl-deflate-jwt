@@ -3,7 +3,7 @@
 ## Linux OS
     RedHat, Fedora, CentOS
 
-## Travis to create docker image after successful test
+## Travis to create and push docker image after successful test
 `https://docs.travis-ci.com/user/docker/
 
 ## Deploy Image to GCP Kubernetes Cluster Engine
