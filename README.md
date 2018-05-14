@@ -7,6 +7,7 @@
 `https://docs.travis-ci.com/user/docker/
 
 ## Deploy Image to GCP Kubernetes Cluster Engine
+    using CLI gcloud and kubectl 
     https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
 
 ## install nvm
