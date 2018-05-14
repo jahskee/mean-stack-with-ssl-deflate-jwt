@@ -2,7 +2,10 @@
 
 ## Linux OS
     RedHat, Fedora, CentOS
-    
+
+## Travis to create docker image after successful test
+`https://docs.travis-ci.com/user/docker/
+
 ## Deploy Image to GCP Kubernetes Cluster Engine
     https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
 
