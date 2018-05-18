@@ -63,6 +63,9 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
     sudo setcap CAP_NET_BIND_SERVICE=+eip ~/.nvm/versions/node/v8.11.1/bin/node
     sudo setcap CAP_NET_BIND_SERVICE=+eip /usr/lib/node_modules/npm/bin/npm-cli.js
 
+## Create free SSL certificate for development
+    https://www.sslforfree.com/
+
 ## Create self-signed SSL certificate for development
 
     mkdir ~/ssl-cert
